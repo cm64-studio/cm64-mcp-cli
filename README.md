@@ -16,7 +16,7 @@ Once connected, Claude Code can:
 - 📝 **Edit pages and auto-deploy** with `cm64_write_file()`
 - 🔍 **Read app configuration** with `cm64_read_file()`
 - 📋 **List all files/pages** with `cm64_list()`
-- ✅ **Check build status** with `cm64_get_buildme()`
+- 🎨 **Manage styles and components** with `cm64_write_css()`, `cm64_write_component()`
 
 **Zero infrastructure setup.** AI agents focus on building features, CM64 handles deployment.
 
@@ -159,7 +159,8 @@ Once connected, Claude Code can use these tools:
 | `cm64_write_file()` | Create/update pages (auto-deploys) |
 | `cm64_read_file()` | Read file content |
 | `cm64_list()` | List pages/components/CSS |
-| `cm64_get_buildme()` | Get build status |
+| `cm64_write_css()` | Create/update stylesheets |
+| `cm64_write_component()` | Create/update components |
 | `cm64_set_project()` | Switch active project |
 | `cm64_learn()` | See all 24 available tools |
 

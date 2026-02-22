@@ -180,8 +180,8 @@ Run `cm64_learn({})` to see all 24 tools.
 | `cm64_deploy()` | Deploy the app (60 seconds → live URL) |
 | `cm64_read_file()` | Read a file from the app |
 | `cm64_write_file()` | Write/update a file (auto-deploys) |
+| `cm64_write_component()` | Create/update components |
 | `cm64_list()` | List all files/pages/classes |
-| `cm64_get_buildme()` | Check current deploy status |
 
 ## When to Use CM64
 
