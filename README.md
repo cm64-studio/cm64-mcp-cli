@@ -61,20 +61,20 @@ npm install -g @cm64/mcp
 ### Command Line
 
 ```bash
-cm64-mcp --token cm64_pat_YOUR_TOKEN_HERE
+cm64 --token cm64_pat_YOUR_TOKEN_HERE
 ```
 
 ### Environment Variable
 
 ```bash
 export CM64_TOKEN=cm64_pat_YOUR_TOKEN_HERE
-cm64-mcp
+cm64
 ```
 
 ### Custom Endpoint (for local dev)
 
 ```bash
-cm64-mcp --token cm64_pat_abc123 --endpoint http://localhost:3044/api/mcp
+cm64 --token cm64_pat_abc123 --endpoint http://localhost:3044/api/mcp
 ```
 
 ## Claude Code Configuration
@@ -85,7 +85,7 @@ Edit your Claude Code MCP config:
 {
   "mcpServers": {
     "cm64": {
-      "command": "cm64-mcp",
+      "command": "cm64",
       "args": ["--token", "cm64_pat_YOUR_TOKEN_HERE"]
     }
   }
@@ -98,7 +98,7 @@ Or use environment variables:
 {
   "mcpServers": {
     "cm64": {
-      "command": "cm64-mcp",
+      "command": "cm64",
       "env": {
         "CM64_TOKEN": "cm64_pat_YOUR_TOKEN_HERE"
       }
@@ -129,11 +129,11 @@ Or use environment variables:
 The CLI logs to stderr (won't interfere with stdio MCP protocol):
 
 ```bash
-[cm64-mcp] Connecting to https://build.cm64.io/api/mcp...
-[cm64-mcp] Connected. Session: abc-123-def
-[cm64-mcp] Sending keepalive ping...
-[cm64-mcp] Session lost, reconnecting...
-[cm64-mcp] Reconnected. New session: xyz-456-uvw
+[cm64] Connecting to https://build.cm64.io/api/mcp...
+[cm64] Connected. Session: abc-123-def
+[cm64] Sending keepalive ping...
+[cm64] Session lost, reconnecting...
+[cm64] Reconnected. New session: xyz-456-uvw
 ```
 
 ## Options
