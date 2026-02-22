@@ -1,7 +1,7 @@
 {
   "name": "@cm64/mcp",
   "version": "1.0.0",
-  "description": "CM64 MCP stdio-to-HTTP bridge CLI",
+  "description": "CM64 MCP stdio-to-HTTP bridge CLI for Claude Code - Deploy apps in 60 seconds",
   "type": "module",
   "bin": {
     "cm64": "./bin/cm64.js",
@@ -9,16 +9,28 @@
   },
   "scripts": {
     "build": "echo 'No build step needed'",
-    "test": "node bin/cm64-mcp.js --help"
+    "test": "node bin/cm64.js --help"
   },
   "keywords": [
     "mcp",
     "model-context-protocol",
     "cm64",
-    "claude-code"
+    "claude-code",
+    "ai-agent",
+    "deployment",
+    "stdio-bridge",
+    "claude"
   ],
   "author": "CM64",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cm64-studio/cm64-mcp-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cm64-studio/cm64-mcp-cli/issues"
+  },
+  "homepage": "https://github.com/cm64-studio/cm64-mcp-cli#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",
     "node-fetch": "^3.3.2"
