@@ -1,0 +1,29 @@
+{
+  "name": "@cm64/mcp",
+  "version": "1.0.0",
+  "description": "CM64 MCP stdio-to-HTTP bridge CLI",
+  "type": "module",
+  "bin": {
+    "cm64": "./bin/cm64.js",
+    "cm64-mcp": "./bin/cm64.js"
+  },
+  "scripts": {
+    "build": "echo 'No build step needed'",
+    "test": "node bin/cm64-mcp.js --help"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cm64",
+    "claude-code"
+  ],
+  "author": "CM64",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
