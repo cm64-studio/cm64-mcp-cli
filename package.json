@@ -4,8 +4,8 @@
   "description": "CM64 MCP stdio-to-HTTP bridge CLI for Claude Code - Deploy apps in 60 seconds",
   "type": "module",
   "bin": {
-    "cm64": "./bin/cm64.js",
-    "cm64-mcp": "./bin/cm64.js"
+    "cm64": "bin/cm64.js",
+    "cm64-mcp": "bin/cm64.js"
   },
   "scripts": {
     "build": "echo 'No build step needed'",
